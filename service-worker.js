@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GeolocationSeasons/precache-manifest.57f4399e77b3f5f06cd1ed01848e3edc.js"
+  "/GeolocationSeasons/precache-manifest.d69a732d6341bf4383964854bd0ff9eb.js"
 );
 
 self.addEventListener('message', (event) => {
