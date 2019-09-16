@@ -17,6 +17,13 @@
     height: 100vh;
 }
 
+.season-position{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .season-display.winter{
     background-color: aliceblue
 }
@@ -31,4 +38,21 @@
 
 .season-display.summer i {
     color: red
+}
+
+
+.season-display.autumn{
+    background-color: #963e05
+}
+
+.season-display.spring{
+    background-color: #ef9dd1
+}
+
+.season-display.autumn i {
+    color: #f2821c
+}
+
+.season-display.spring i {
+    color: #c0cfe1
 }

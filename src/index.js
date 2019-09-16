@@ -5,18 +5,21 @@ import Spinner from "./Spinner";
 
 class App extends React.Component {
 
-    state={lat: null, errMessage:''}
+    state={lat: null, long: null, errMessage:''}
 
     componentDidMount(){
         window.navigator.geolocation.getCurrentPosition(
-            position => this.setState({lat: position.coords.latitude}),
+            
+            position => {console.log(position); this.setState({lat: position.coords.latitude, long: position.coords.longitude})},
             err => this.setState({ errMessage: err.message }) 
         )
-    }
+    };
+    
 
     renderContent(){
+        console.log(this.state)
         if (this.state.lat && !this.state.errMessage) {
-            return <SeasonDisplay lat={this.state.lat}/>
+            return <SeasonDisplay lat={this.state.lat} long={this.state.long}/>
         }
         if (!this.state.lat && this.state.errMessage) {
             return <div>Error: {this.state.errMessage}</div>
@@ -26,7 +29,10 @@ class App extends React.Component {
     
     render() {
     return(
+        <div>
         <div>{this.renderContent()}</div>
+        
+        </div>
     )
 }
 }
