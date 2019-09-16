@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0c181bda5047306af2fba758e4f720e",
+    "revision": "f0c73680060cc55aed5aca0a72dcbf9f",
     "url": "/GeolocationSeasons/index.html"
   },
   {
-    "revision": "e8cdb1a349880df642bf",
+    "revision": "01a7307322381d962188",
     "url": "/GeolocationSeasons/static/css/main.e2e9f26c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GeolocationSeasons/static/js/2.dcc8534d.chunk.js"
   },
   {
-    "revision": "e8cdb1a349880df642bf",
-    "url": "/GeolocationSeasons/static/js/main.59e78c4f.chunk.js"
+    "revision": "01a7307322381d962188",
+    "url": "/GeolocationSeasons/static/js/main.a41ee90e.chunk.js"
   },
   {
     "revision": "4f7c2ada376529c88706",
