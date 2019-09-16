@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GeolocationSeasons/static/css/main.e2e9f26c.chunk.css",
-    "main.js": "/GeolocationSeasons/static/js/main.c5735627.chunk.js",
-    "main.js.map": "/GeolocationSeasons/static/js/main.c5735627.chunk.js.map",
+    "main.js": "/GeolocationSeasons/static/js/main.59e78c4f.chunk.js",
+    "main.js.map": "/GeolocationSeasons/static/js/main.59e78c4f.chunk.js.map",
     "runtime~main.js": "/GeolocationSeasons/static/js/runtime~main.edd68022.js",
     "runtime~main.js.map": "/GeolocationSeasons/static/js/runtime~main.edd68022.js.map",
     "static/js/2.dcc8534d.chunk.js": "/GeolocationSeasons/static/js/2.dcc8534d.chunk.js",
     "static/js/2.dcc8534d.chunk.js.map": "/GeolocationSeasons/static/js/2.dcc8534d.chunk.js.map",
     "index.html": "/GeolocationSeasons/index.html",
-    "precache-manifest.c87d183532f02d6b34b959945b463ed3.js": "/GeolocationSeasons/precache-manifest.c87d183532f02d6b34b959945b463ed3.js",
+    "precache-manifest.7877ec61a855f5f6a8b02cf875f6a8ee.js": "/GeolocationSeasons/precache-manifest.7877ec61a855f5f6a8b02cf875f6a8ee.js",
     "service-worker.js": "/GeolocationSeasons/service-worker.js",
     "static/css/main.e2e9f26c.chunk.css.map": "/GeolocationSeasons/static/css/main.e2e9f26c.chunk.css.map"
   }
