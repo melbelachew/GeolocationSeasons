@@ -48,7 +48,7 @@ const SeasonDisplay = (props) => {
     return (
         <div className = {`season-display ${season}`}>
            <i className={`icon-left massive ${iconName} icon`}/>
-            <div>
+            <div className = "ui container">
                 <h3>Date: {new Date().toLocaleDateString()} Time: {new Date().toTimeString()}</h3>
                 <h3>Current Position: {`Latitude: ${props.lat.toFixed(2)} Longitude: ${props.long.toFixed(2)}`}</h3> 
                 <h3 style={{fontStyle:'italic'}}>{text}</h3>
