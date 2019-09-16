@@ -30,7 +30,7 @@ class App extends React.Component {
     render() {
     return(
         <div>
-        <div>{this.renderContent()}</div>
+        <div className="ui-container">{this.renderContent()}</div>
         
         </div>
     )
