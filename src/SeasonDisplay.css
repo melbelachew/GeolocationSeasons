@@ -18,7 +18,7 @@
 }
 
 .season-position{
-    display: inline-block;
+    /* display: inline-block; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -55,4 +55,11 @@
 
 .season-display.spring i {
     color: #c0cfe1
+}
+
+
+.ui.container {
+    width: auto!important;
+    margin-left: 2em!important;
+    margin-right: 2em!important;
 }
